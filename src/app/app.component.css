@@ -1,0 +1,23 @@
+
+body {
+    /* margin: 0; */
+}
+
+main {
+    /* margin: 30px; */
+}
+
+.sidenav-list-item {
+  /* align the icon an text, and put a gap between them */
+  display: flex; 
+  align-items: center;
+  column-gap: 8px; 
+}
+
+.sidenav-icon {
+  color: black;
+}
+
+mat-toolbar a {
+  color: white;
+}
