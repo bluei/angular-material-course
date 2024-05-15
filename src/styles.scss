@@ -3,3 +3,8 @@
 
 @import "@angular/material/prebuilt-themes/indigo-pink.css";
 
+// Styling highlighted dates in DatePicker
+.mat-calendar-body-cell.highlight-date {
+    background: orange;
+    border-radius: 100%;
+  }

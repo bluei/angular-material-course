@@ -1,7 +1,7 @@
 
 .course {
     text-align: center;
-    width: 390px;
+    width: 400px;
     margin: 40px auto;
 }
 
@@ -9,6 +9,11 @@
   width: 150px;
   margin: 20px auto 0 auto;
   display: block;
+}
+
+.scrolling-container{
+  max-height: 250px;
+  overflow: auto;
 }
 
 .description-cell {
@@ -35,7 +40,7 @@
 .lessons-table {
   min-height: 360px;
   margin-top: 10px;
-  width: 400px;
+  // width: 400px;
   margin-left: auto;
   margin-right: auto;
   tr:hover {
@@ -68,4 +73,12 @@ mat-paginator {
 
 .mat-column-duration {
   font-style: italic;
+}
+
+.collapsed-detail {
+  display: none;
+}
+
+.long-description {
+  padding-left: 110px;
 }
